@@ -1,0 +1,44 @@
+# Labeler configuration
+# https://github.com/actions/labeler
+
+# PR labels based on changed files
+"backend":
+  - changed-files:
+      - any-glob-to-any-file: ["**/*.py", "**/*.js", "**/*.ts", "**/*.go", "**/*.java", "**/*.php", "**/*.rb"]
+
+"frontend":
+  - changed-files:
+      - any-glob-to-any-file: ["**/*.html", "**/*.css", "**/*.scss", "**/*.vue", "**/*.jsx", "**/*.tsx"]
+
+"documentation":
+  - changed-files:
+      - any-glob-to-any-file: ["**/*.md", "**/*.rst", "docs/**"]
+
+"infrastructure":
+  - changed-files:
+      - any-glob-to-any-file: ["**/Dockerfile", "**/docker-compose.yml", "**/*.yml", "**/*.yaml", ".github/**"]
+
+"tests":
+  - changed-files:
+      - any-glob-to-any-file: ["**/*test*", "**/*spec*", "**/tests/**"]
+
+# PR labels based on title patterns
+"bug":
+  - head-branch: ['^fix/', '^hotfix/']
+  - title: ['^fix:', '^bugfix:']
+
+"enhancement":
+  - head-branch: ['^feature/', '^feat/']
+  - title: ['^feat:', '^feature:']
+
+"documentation":
+  - head-branch: ['^docs/']
+  - title: ['^docs:', '^documentation:']
+
+"dependencies":
+  - head-branch: ['^deps/', '^dependabot/']
+  - title: ['^deps:', '^dependencies:']
+
+"chore":
+  - head-branch: ['^chore/']
+  - title: ['^chore:']

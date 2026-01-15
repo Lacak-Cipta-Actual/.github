@@ -1,0 +1,97 @@
+version: 2
+updates:
+  # Enable version updates for npm
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "lacak/maintainers"
+    assignees:
+      - "lacak/maintainers"
+    commit-message:
+      prefix: "deps"
+      include: "scope"
+
+  # Enable version updates for pip
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "lacak/maintainers"
+    assignees:
+      - "lacak/maintainers"
+    commit-message:
+      prefix: "deps"
+      include: "scope"
+
+  # Enable version updates for Docker
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 3
+    reviewers:
+      - "lacak/maintainers"
+    assignees:
+      - "lacak/maintainers"
+    commit-message:
+      prefix: "deps"
+      include: "scope"
+
+  # Enable version updates for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 3
+    reviewers:
+      - "lacak/maintainers"
+    assignees:
+      - "lacak/maintainers"
+    commit-message:
+      prefix: "deps"
+      include: "scope"
+
+  # Enable version updates for Go modules
+  - package-ecosystem: "gomod"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "lacak/maintainers"
+    assignees:
+      - "lacak/maintainers"
+    commit-message:
+      prefix: "deps"
+      include: "scope"
+
+  # Enable version updates for Cargo (Rust)
+  - package-ecosystem: "cargo"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "lacak/maintainers"
+    assignees:
+      - "lacak/maintainers"
+    commit-message:
+      prefix: "deps"
+      include: "scope"

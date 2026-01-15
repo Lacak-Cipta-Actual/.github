@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security Issues
+    url: https://lacak.io
+    about: Please report security vulnerabilities privately
+  - name: General Questions
+    url: https://lacak.io
+    about: Questions about our products or services
