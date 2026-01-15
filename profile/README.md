@@ -1,97 +1,81 @@
 <!--
 Lacak Organization Profile
+Repo: lacak/.github
+Path: /profile/README.md
 -->
+
+<div align="center">
 
 # Lacak
 
-IoT platform for fleet management and vehicle monitoring in logistics, transportation, and mining operations.
+**IoT platform for fleet operations** — real-time vehicle monitoring, fleet analytics, and operational visibility  
+for **logistics, transportation, and mining**.
 
 [Website](https://lacak.io) · [Platform](https://live.lacak.io)
 
----
-
-## Overview
-
-Lacak.io builds IoT solutions for vehicle monitoring and fleet operations management.
-
-**Focus areas:**
-- Operational efficiency optimization
-- Safety and compliance monitoring
-- Cost control and analytics
-- Real-time data processing
-
-Sectors: transportation, logistics, mining
+</div>
 
 ---
 
-## Products
+## What we build
 
-### Fleet Tracker
-Real-time vehicle tracking, route history, mileage monitoring
-
-### Fuel Monitoring
-Consumption tracking, fraud detection, cost optimization
-
-### Heavy Equipment Monitoring
-Mining equipment usage analysis and performance metrics
-
-### Load Monitoring
-Payload tracking, overload prevention, maintenance optimization
-
-### Environmental Monitoring
-Temperature and humidity sensing for cold-chain logistics
+Lacak.io develops IoT-based systems to help fleets and operators:
+- monitor vehicles and heavy equipment in real-time
+- improve safety and compliance
+- reduce operational cost through measurable telemetry
+- turn raw device signals into actionable operational insights
 
 ---
 
-## Engineering
+## Solutions
 
-**Principles:**
+- **Fleet Tracking** — real-time map, history playback, mileage & utilization
+- **Fuel Monitoring** — consumption tracking, anomaly detection, optimization
+- **Heavy Equipment Monitoring** — mining operations telemetry & productivity metrics
+- **Load Monitoring** — payload tracking, overload prevention & maintenance support
+- **Environmental Monitoring** — temperature / humidity sensing for cold-chain logistics
+
+---
+
+## Engineering standards
+
+We build systems for real-world constraints: unstable networks, large fleets, and continuous data ingestion.
+
+**Principles**
+- Reliability & fault-tolerance first
 - Observability-driven development
-- Reliability through design
-- Security by default
-- Performance at scale
-- Pragmatic architecture
+- Security baseline by default
+- Performance-aware engineering
 
-**Tech stack:**
-- Backend: REST APIs, event-driven systems
-- IoT: Device protocols, message ingestion
-- Data: Relational + analytics storage
-- Frontend: Dashboards, operator consoles
-- Infrastructure: CI/CD, monitoring, deployment
+**Typical stack**
+- Backend: REST APIs, async/event-driven services
+- IoT: device protocol integrations, ingestion pipelines
+- Data: relational + analytics storage (hot/warm/cold retention patterns)
+- Frontend: dashboards, operator consoles
+- Infra: CI/CD, monitoring, automated checks
 
 ---
 
-## Contributing
+## Contribution workflow
 
-**Branching:**
-- `main` - always deployable
-- `feature/*` - development
-- `release/*` - releases
-
-**PR requirements:**
-- Clear scope description
-- Test coverage
-- Risk assessment for production changes
-
-**CI/CD:**
-- Automated linting and type checking
-- Unit and integration tests
-- Build verification
-- Code review automation
+- `main` is always deployable
+- `feature/*` for development
+- PRs require: clear scope, testing notes, and production risk awareness
+- CI blocks merge on: lint/typecheck/tests/build failures
 
 ---
 
 ## Security
 
-Security issues should not be reported publicly.
+Please **do not report security issues publicly**.
 
-Contact: https://lacak.io
+Use responsible disclosure via official channels: https://lacak.io
 
 ---
 
 ## Links
 
-- Website: https://lacak.io
-- Platform: https://live.lacak.io
-- About: https://lacak.io/tentang-kami/
-- Mining: https://lacak.io/pertambangan/
+- Website: https://lacak.io  
+- Platform: https://live.lacak.io  
+- About: https://lacak.io/tentang-kami/  
+- Mining solutions: https://lacak.io/pertambangan/
